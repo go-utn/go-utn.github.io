@@ -11,9 +11,9 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
-    "accept: REPLACE_THIS_VALUE",
-    "x-btmu-seq-no: REPLACE_THIS_VALUE",
-    "x-ibm-client-id: REPLACE_THIS_KEY"
+    "accept: application/json",
+    "x-btmu-seq-no: 999999",
+    "x-ibm-client-id: 4ff77129-27db-4394-9c95-e78c1cf92e3c"
   ),
 ));
 
